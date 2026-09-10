@@ -33,6 +33,12 @@ kernel polymul<
 | [`solution/`](solution/) | the measured project: `solve.py` (`init` / `run` / `free`), `fherma.toml`, generated harness |
 | [`solution/README.md`](solution/README.md) | what it does and how to run |
 
+The measured project is a directory rather than the repository, so an
+implementation pointing here has to say so: its artifact's **Path in the
+repository** is `solution`. Left at `.`, the harness is written beside the front
+matter instead of beside `solve.py`, and the run ends at
+`ModuleNotFoundError: No module named 'solve'`.
+
 ## Running it
 
 ```sh
