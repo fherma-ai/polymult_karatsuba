@@ -21,7 +21,7 @@ fold (`X^N = -1`) and one reduction modulo `q` per coefficient are applied once.
 `run` does only the multiplication.
 
 This is a **reference baseline** — faster than schoolbook by a constant-in-the-exponent, but still
-not competitive at `N = 65,536`, where a real entry uses a number-theoretic transform.
+not competitive at `N = 32,768`, where a real entry uses a number-theoretic transform.
 
 ## Interface
 

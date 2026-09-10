@@ -12,7 +12,7 @@ is faster, so the leaves are schoolbook; the negacyclic fold (`X^N = −1`) and 
 reduction modulo `q` per coefficient are applied once at the end. The operands
 are public: this is raw compute, not encrypted. A **reference baseline** — faster
 than schoolbook by a constant in the exponent, but still not competitive at
-`N = 65,536`, where a real entry uses a number-theoretic transform.
+`N = 32,768`, where a real entry uses a number-theoretic transform.
 
 ```text
 kernel polymul<
